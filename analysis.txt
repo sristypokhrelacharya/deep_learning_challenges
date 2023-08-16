@@ -1,0 +1,24 @@
+Analysis
+This assignment outlines a neural network model aimed to predict "is-successful" status. Relevant features were retained while uninformative or imbalanced ones were removed. the architecture is compromised with three layers 100 neurons Relu, 30 neurons Relu, and 10 neurons Sigmoid. this facilitated learning complex patterns. the Relu activation function promotes non-linearity, while the sigmoid function generated output probabilities. the model was compiled, trained, and evaluated for optimal performance. careful feature selection and design were essential for better generalization, enhancing the model's predictive capabilities.
+
+Data Preprocessing:
+
+Target Variable: "IS_SUCCESSFUL"
+Final Feature Variables:
+NAME
+APPLICATION_TYPE
+AFFILIATION
+CLASSIFICATION
+USE_CASE
+ORGANIZATION
+INCOME_AMT
+ASK_AMT
+Removed Variables:
+EIN (ID number)
+SPECIAL_CONSIDERATIONS (Unbalanced values)
+STATUS (Imbalanced values)
+
+key takeaways
+1. The neural network architecture consisted of three layers with varying neuron counts and activation functions to capture complex patterns in the data.
+2. ReLU and sigmoid activation functions were employed to introduce non-linearity and produce appropriate output probabilities.
+3. The model was compiled, trained, and evaluated to optimize its performance.
